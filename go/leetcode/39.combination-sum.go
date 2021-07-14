@@ -4,9 +4,10 @@
  * [39] Combination Sum
  */
 
-package LeetCode
+package leetcode
 
 // @lc code=start
+
 func combinationSum(candidates []int, target int) [][]int {
 	res := make([][]int, 0)
 	if target == 0 || len(candidates) == 0 {

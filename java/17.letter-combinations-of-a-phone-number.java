@@ -23,7 +23,7 @@ class Solution17 {
             res.add(letters);
             return;
         }
-        Map<Character,String> map = new HashMap<>();
+        HashMap<Character,String> map = new HashMap<>();
         map.put('2',"abc");
         map.put('3', "def");
         map.put('4',"ghi");
@@ -43,7 +43,7 @@ class Solution17 {
         if(digits==null||digits.length()==0){
             return Collections.emptyList();
         }
-        Map<Character,String> map = new HashMap<>();
+        HashMap<Character,String> map = new HashMap<>();
         map.put('2',"abc");
         map.put('3', "def");
         map.put('4',"ghi");

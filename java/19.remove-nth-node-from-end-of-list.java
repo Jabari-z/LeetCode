@@ -1,4 +1,3 @@
-import apple.laf.JRSUIConstants.Size;
 
 /*
  * @lc app=leetcode id=19 lang=java
